@@ -4,7 +4,7 @@
 
    - COMMANDS  
        exit: Close the app,  
-       cd: Change current room, syntax: 't!cd <roomName>',  
+       cd: Change current room, syntax: 't!cd roomName',  
        pause: Pause sending messages,  
        resume: Resume sending messages.
 
