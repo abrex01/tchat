@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "cli-color": "^2.0.1",
+    "events": "^3.3.0",
+    "https": "^1.0.0",
+    "socket.io-client": "^4.4.1"
+  },
+  "name": "tchat",
+  "version": "0.0.2",
+  "main": "main.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
