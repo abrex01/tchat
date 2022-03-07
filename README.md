@@ -2,10 +2,10 @@
 
    - Notice! 't!' is the prefix for COMMANDS. For example: 't!exit'
 
-   - COMMANDS
-       exit: Close the app,
-       cd: Change current room, syntax: 't!cd <roomName>' (You can get list of rooms in the official site: https://tchat.abyoux.repl.co)
-       pause: Pause sending messages,
+   - COMMANDS  
+       exit: Close the app,  
+       cd: Change current room, syntax: 't!cd <roomName>' (You can get list of rooms in the official site: https://tchat.abyoux.repl.co)  
+       pause: Pause sending messages,  
        resume: Resume sending messages
 
 # VERSION
