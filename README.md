@@ -1,4 +1,4 @@
-#TCHAT 0.0.2 COMMANDS
+# COMMANDS
 
    - Notice! 't!' is the prefix for COMMANDS. For example: 't!exit'
 
@@ -8,17 +8,17 @@
        pause: Pause sending messages,
        resume: Resume sending messages
 
-#TCHAT 0.0.2 VERSION
+# VERSION
 
    - (Note) This version is not full version that is why it can look not optimized and not well customized.
    - Changes: Added new commands, Register page, Change rooms
 
 
-#WEBSITE
+# WEBSITE
 
    https://tchat.abyoux.repl.co/
 
-#CONTACT
+# CONTACT
 
    - Discord Server: https://dsc.gg/abyx
 
