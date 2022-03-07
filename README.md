@@ -4,9 +4,9 @@
 
    - COMMANDS  
        exit: Close the app,  
-       cd: Change current room, syntax: 't!cd <roomName>' (You can get list of rooms in the official site: https://tchat.abyoux.repl.co)  
+       cd: Change current room, syntax: 't!cd <roomName>',  
        pause: Pause sending messages,  
-       resume: Resume sending messages
+       resume: Resume sending messages.
 
 # VERSION
 
