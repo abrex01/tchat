@@ -2,12 +2,12 @@
 ```
 $ git clone https://github.com/abrex01/tchat tchat
 ```
-### APT
+###### APT
 ```
 $ chmod +x tchat/install.sh
 $ ./install.sh
 ```
-### PACMAN
+###### PACMAN
 ```
 $ chmod +x tchat/install-pacman.sh
 $ ./install-pacman.sh
