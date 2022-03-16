@@ -28,10 +28,6 @@ $ ./install-pacman.sh
    - Changes: Added new commands, Register page, Change rooms
 
 
-# WEBSITE
-
-   - https://tchat.abyoux.repl.co/
-
 # CONTACT
 
    - Discord Server: https://dsc.gg/abyx
