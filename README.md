@@ -1,3 +1,17 @@
+# INSTALLATION
+```
+$ git clone https://github.com/abrex01/tchat tchat
+```
+### APT
+```
+$ chmod +x tchat/install.sh
+$ ./install.sh
+```
+### PACMAN
+```
+$ chmod +x tchat/install-pacman.sh
+$ ./install-pacman.sh
+```
 # COMMANDS
 
    - Notice! 't!' is the prefix for COMMANDS. For example: 't!exit'
@@ -21,4 +35,3 @@
 # CONTACT
 
    - Discord Server: https://dsc.gg/abyx
-
