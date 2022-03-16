@@ -82,8 +82,8 @@ function logRoomHeader(room) {
     console.log(set + clc.bold.redBright.underline(rn.toUpperCase()))
 }
 const lb = "\n"
-const https = require("https")
 function loopMinput() {
+    process.stdout.write(`${user.username}:`)
     rl.on("line", (message) => {
         if (message.split(" ")[0] == "t!exit") {
             process.exit(1)
@@ -101,20 +101,7 @@ function loopMinput() {
                 content: message,
                 date: (new Date()).toUTCString()}
         if (isConnected && status == 1) {
-            if (msg.content.length > 50){
-                display({
-                    author: "SYSTEM",
-                    content: `${clc.bgRed("Message is too long!")}`,
-                    systemMessage: true
-                })
-            } else {
-                socket.emit("message", msg);
-                display({
-                    author: "SYSTEM",
-                    content: `${clc.greenBright(">>")}`,
-                    systemMessage: true
-                })
-            } 
+            socket.emit("message", msg);
         } else {
             console.log("\n You are disconnected or app is paused. \n")}
         }
@@ -124,18 +111,14 @@ function loopMinput() {
 const pre = clc.red("[!]")
 var user = {};
 
-async function display(msg) {
+function display(msg) {
     if (!msg.systemMessage){
         console.log(`${lb} ${clc.bold.yellow(msg.author)}: \'${msg.content}\' ${lb} ${lb}`)
     } else {
         console.log((`${lb} ${clc.bold(pre)} ${msg.content} ${lb}`))
     }
 }
-async function isValidUser(un, pw) {
-    https.get(url + `/users/username=${un}&password=${pw}&token=a0b1r2e3x4abhesnli1000111`, (res) => {
-        console.log(res.statusCode)
-    }).on("error", (err) => {console.log(err)})
-}
+
 function loginLoop() {
     socket.removeAllListeners()
     console.clear()
