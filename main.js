@@ -1,16 +1,16 @@
 const readline = require("readline");
-const options = require("./options.json")
+const options = require("./options.json");
 var rl = readline.createInterface(process.stdin, process.stdout);
-var ready = false
+var ready = false;
 var status = 1;
 var callBack = () => {
-    isConnected = true
+    isConnected = true;
     console.log(pre + " Logged in as " + clc.green(user.username));
-    console.log(pre + " Type something and hit [ENTER] to send message ")
+    console.log(pre + " Type something and hit [ENTER] to send message ");
     user.channel = "global";
-    socket.emit("join-request", "global")
+    socket.emit("join-request", "global");
     socket.on("amessage", msg => {
-        if (status == 1) {display(msg)}
+        if (status == 1) {display(msg)};
     })
     socket.on("join", uname => {
         if (status == 1) {display({
