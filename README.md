@@ -14,7 +14,7 @@ $ ./install-pacman.sh
 ```
 # COMMANDS
 
-   - Notice! 't!' is the prefix for COMMANDS. For example: 't!exit'
+   - 't!' is the prefix for COMMANDS. For example: 't!exit'
 
    - COMMANDS  
        exit: Close the app,  
