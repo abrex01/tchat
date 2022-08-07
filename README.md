@@ -1,6 +1,6 @@
 # INSTALLATION
 ```
-$ git clone https://github.com/abrex01/tchat
+$ git clone https://github.com/hsnliqdrv/tchat
 ```
 ###### APT
 ```
